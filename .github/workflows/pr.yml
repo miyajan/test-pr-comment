@@ -2,7 +2,7 @@ name: Comment
 
 on:
   pull_request:
-    types: [opened, edited, reopened, labeled]
+    types: [opened, edited, reopened, labeled, synchronize]
 
 jobs:
   comment:
